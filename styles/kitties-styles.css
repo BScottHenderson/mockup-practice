@@ -1,0 +1,52 @@
+
+.kitties-header {
+  background-color: black;
+}
+
+.kitties-title {
+  color: white;
+  font-size: 2.0rem;
+}
+
+.kitties-tag {
+  color: gray;
+  font-size: 1.25rem;
+}
+
+.kitties-nav {
+  color: purple;
+  background-color: gray;
+  font-size: 1.5rem;
+}
+
+.kitties-book {
+  color: red;
+  font-size: 1.5rem;
+}
+
+.kitties-right {
+  text-align: right;
+}
+
+.kitties-aside {
+  border: 0.025rem solid black;
+  margin: 0.1rem;
+}
+
+.kitties-footer {
+  background-color: black;
+}
+
+.kitties-address {
+  color: white;
+  max-width: 8rem;
+}
+
+.kitties-address a {
+  color: red;
+}
+
+.kitties-copyright {
+  color: white;
+  text-align: center;
+}
