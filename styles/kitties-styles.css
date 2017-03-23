@@ -49,6 +49,20 @@
 }
 
 
+.kitties-main-rates {
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+.kitties-main-rates h2 {
+  padding: 0 0 1rem;
+}
+
+.kitties-main-rates table {
+  padding: 0 1rem 0;
+}
+
+
 .kitties-main-liability {
   padding: 1rem;
   margin: 1rem 0;
