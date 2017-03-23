@@ -3,50 +3,107 @@
   background-color: black;
 }
 
-.kitties-title {
+.kitties-header h1 {
   color: white;
-  font-size: 2.0rem;
+  font-size: 3.0rem;
+  margin: 0.67em 0 0; /* remove bottom margin */
+  padding: 2rem 2rem 0;
 }
 
-.kitties-tag {
+.kitties-header h2 {
   color: gray;
   font-size: 1.25rem;
+  padding: 1rem 2rem 2rem;
 }
 
-.kitties-nav {
+.kitties-book-a-cat {
+  color: darkred;
+  font-size: 1.5rem;
+  /* there must be a better way to right justify this element but it is currently beyond me */
+  position: absolute;
+  right: 1rem;
+}
+
+.kitties-header nav {
   color: purple;
   background-color: gray;
   font-size: 1.5rem;
+  display: flex;
+  justify-content: space-around;
+  padding: 0.5rem 0;
 }
 
-.kitties-book {
-  color: red;
+
+.kitties-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.kitties-main h2 {
   font-size: 1.5rem;
 }
 
-.kitties-right {
-  text-align: right;
+.kitties-main p {
+  padding: 1rem;
 }
 
-.kitties-aside {
-  border: 0.025rem solid black;
-  margin: 0.1rem;
+
+.kitties-article {
+  width: 66%;
 }
+
+.kitties-article h2 {
+  margin: 2rem 0 1rem;
+  padding: 0 1rem 0;
+}
+
+.kitties-testimonials p {
+  font-style: italic;
+  padding: 0 1rem 1rem;
+}
+
+
+.kitties-aside {
+  width: 34%;
+  border: 0.025rem solid black;
+  padding: 1rem 0.5rem 1rem;
+  margin: 1rem 0.5rem 1rem;
+  text-align: center;
+}
+
+.kitties-photo-footer {
+  display: flex;
+}
+
+.kitties-aside p {
+  text-align: left;
+}
+
+.kitties-book-now {
+  color: darkred;
+  width: 8rem;
+  text-align: right;  /* why doesn't this work? */
+}
+
 
 .kitties-footer {
   background-color: black;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
 }
 
 .kitties-address {
   color: white;
-  max-width: 8rem;
+  width: 8rem;
 }
 
 .kitties-address a {
-  color: red;
+  color: darkred;
 }
 
-.kitties-copyright {
+.kitties-footer p {
   color: white;
-  text-align: center;
+  margin: 0 auto;
 }
