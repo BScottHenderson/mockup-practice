@@ -49,6 +49,16 @@
 }
 
 
+.kitties-main-liability {
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+.kitties-main-liability-checkbox {
+  margin: 1rem 0 0;
+}
+
+
 .kitties-article {
   width: 66%;
 }
